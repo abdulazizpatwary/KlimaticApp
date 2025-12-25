@@ -1,16 +1,48 @@
-# klimatic
+# Klimatic - Flutter Weather App
 
-A new Flutter project.
+A simple **Weather App** built with **Flutter** that allows users to view the current weather of any city using the OpenWeatherMap API. Users can also change the city to see updated weather information.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+##  Features
 
-A few resources to get you started if this is your first Flutter project:
+- View current temperature of a city
+- Display additional weather info (Humidity, Min/Max Temp)
+- Change city dynamically
+- Beautiful background images for different weather conditions
+- Responsive UI using Flutter widgets
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Screenshots
+
+### Home Screen
+![Home](images/Home.png)
+
+### Enter City Screen
+![Enter City](images/entercity.png)
+
+### Delhi Entered Screen
+![Delhi Entered](images/Delhienter.png)
+
+### Delhi Home Screen
+![Delhi Home](images/delhiHome.png)
+
+---
+## Tech Stack
+
+- Flutter - Frontend UI
+
+- Dart - Programming language
+
+- OpenWeatherMap API - Fetch weather data
+
+- HTTP package - API calls
+
+- FutureBuilder - Async UI updates
+
+## ⚙️ Installation
+
+1. Clone this repository
+```bash
+git clone https://github.com/abdulazizpatwary/klimatic.git
